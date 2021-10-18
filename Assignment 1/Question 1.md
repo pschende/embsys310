@@ -11,8 +11,8 @@ The BD Veritor is a hand-held diagnostic device for rapid detection of respirato
 9. The test cartridge is removed and the device is ready to use again.
 
 There is little to no information on the inner workings of the device, but based on descriptions, literature, and pictures I assume that the system consists of these subsystems:
-MCU
-##This microcontroller stores the firmware that runs the system
+*MCU
+  *This microcontroller stores the firmware that runs the system*
 Camera/test cartridge detector
 ##This subsystem images the test strip area of the test cartridge as well as a cartridge bar code. THe test strip area shows the test results after the incubation period. The strip is coated with antibodies in certain areas that are specific to the type of pathogen being performed as well as a positive biotin control area and a blank negative control area. Any pathogens present in the detection buffer will be bound to these sites on the test strip and labeled with detection particles (most likely fluorescent)t. A small barcode next to the test strip might contain a serial number that will indicate to the firmware the type of test and other traceable information like test lot.
 Illumination source
@@ -29,25 +29,25 @@ Communication interface
 ##This interface is used to update the device's firmware and optionally communicate with an external hospital network device.
 
 The key challenges with this device are:
-#Simplicity
-##The test and device must be simple enough for home use as waived test under the CLIA (1988) act. The device must display all instructions, should self detect any issues that might affect test results, and allow for minimum opportunity for user error.
-#Reliability
-##As this is an in vitro diagnostic device, both its hardware and firmware must be reliable.
-#Detector calibration/validation
-##The device must have some way of confirming that its detector system is performing to specification. BD has supplied a specicial test cartridge that is used for this purpose.
-#Cartridge detection
-##The test cartridge must be detected by the system and confirmed to be the correct cartridge in the correct orientation. The cartridge includes a barcode that is read internally and may be used as a fiducial marker.
-#Sample validation
-##The test strip has areas for both positive and negative controls to validate the test results.
-#Cost
-##The device must be cheap and simple enough to be manufactured in the millions. It is unknown whether the ~$300 price tag is sold at a profit. It could be sold at a loss as the system uses cheap single-use test cartridges that probably account for the majority of the system's profitability.
-#Size
-##The battery, detector and control board must fit in a hand held unit.
-#Power consumption
-##The device must run off of a single battery and may need to perform hundreds of test in between battery changes, so the unit must conserve power as much as possible.
-#Loss of accuracy
-##The system must account for any changes to its detection system over time. The unit has a test count that limits its use to 3500 tests. I'm unsure why it has this limitation, but I'm guessing that the reliability of the tests may drop after more use.
-#Debugging
-##The device may be debugged and reprogramed through its external communication interface, or the interface might be limited in functionality to prevent tampering. If that is the case, then it most likely only has an internal debugging interface that requires disassembly of the device. The device firmware is smart enough to complete a self test and identify what kind of cartridge test it is completing.
-#Hospital system communication
-##The device can communicate to an external network through an optional accessory. It is paramount that this interface is secure, error free, and preserves patient data confidentiality.
+*Simplicity
+  The test and device must be simple enough for home use as waived test under the CLIA (1988) act. The device must display all instructions, should self detect any issues that might affect test results, and allow for minimum opportunity for user error.
+*Reliability
+  As this is an in vitro diagnostic device, both its hardware and firmware must be reliable.
+*Detector calibration/validation
+  The device must have some way of confirming that its detector system is performing to specification. BD has supplied a specicial test cartridge that is used for this purpose.
+*Cartridge detection
+  The test cartridge must be detected by the system and confirmed to be the correct cartridge in the correct orientation. The cartridge includes a barcode that is read internally and may be used as a fiducial marker.
+*Sample validation
+  The test strip has areas for both positive and negative controls to validate the test results.
+*Cost
+  The device must be cheap and simple enough to be manufactured in the millions. It is unknown whether the ~$300 price tag is sold at a profit. It could be sold at a loss as the system uses cheap single-use test cartridges that probably account for the majority of the system's profitability.
+*Size
+  The battery, detector and control board must fit in a hand held unit.
+*Power consumption
+  The device must run off of a single battery and may need to perform hundreds of test in between battery changes, so the unit must conserve power as much as possible.
+*Loss of accuracy
+  The system must account for any changes to its detection system over time. The unit has a test count that limits its use to 3500 tests. I'm unsure why it has this limitation, but I'm guessing that the reliability of the tests may drop after more use.
+*Debugging
+  The device may be debugged and reprogramed through its external communication interface, or the interface might be limited in functionality to prevent tampering. If that is the case, then it most likely only has an internal debugging interface that requires disassembly of the device. The device firmware is smart enough to complete a self test and identify what kind of cartridge test it is completing.
+*Hospital system communication
+  The device can communicate to an external network through an optional accessory. It is paramount that this interface is secure, error free, and preserves patient data confidentiality.
