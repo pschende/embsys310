@@ -1,38 +1,38 @@
-"C:\repo\embsys310\Hello_World\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c"
+"C:\repo\embsys310\embsys310\Assignment 1\Hello_World\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\repo\embsys310\Hello_World\EWARM\Hello_World\Obj\stm32l4xx_hal_i2c.pbi.dep
+C:\repo\embsys310\embsys310\Assignment 1\Hello_World\EWARM\Hello_World\Obj\stm32l4xx_hal_i2c.pbi.dep
 -o
 stm32l4xx_hal_i2c.pbi
 -I
-C:\repo\embsys310\Hello_World\Drivers\STM32L4xx_HAL_Driver\Src
+C:\repo\embsys310\embsys310\Assignment 1\Hello_World\Drivers\STM32L4xx_HAL_Driver\Src
 -I
-C:\repo\embsys310\Hello_World\EWARM/../Inc
+C:\repo\embsys310\embsys310\Assignment 1\Hello_World\EWARM/../Inc
 -I
-C:\repo\embsys310\Hello_World\EWARM/../Drivers/STM32L4xx_HAL_Driver/Inc
+C:\repo\embsys310\embsys310\Assignment 1\Hello_World\EWARM/../Drivers/STM32L4xx_HAL_Driver/Inc
 -I
-C:\repo\embsys310\Hello_World\EWARM/../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy
+C:\repo\embsys310\embsys310\Assignment 1\Hello_World\EWARM/../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy
 -I
-C:\repo\embsys310\Hello_World\EWARM/../Drivers/CMSIS/Device/ST/STM32L4xx/Include
+C:\repo\embsys310\embsys310\Assignment 1\Hello_World\EWARM/../Drivers/CMSIS/Device/ST/STM32L4xx/Include
 -I
-C:\repo\embsys310\Hello_World\EWARM/../Drivers/CMSIS/Include
+C:\repo\embsys310\embsys310\Assignment 1\Hello_World\EWARM/../Drivers/CMSIS/Include
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc\c
 -I
-C:\repo\embsys310\Hello_World\Inc
+C:\repo\embsys310\embsys310\Assignment 1\Hello_World\Inc
 -I
-C:\repo\embsys310\Hello_World\Drivers\STM32L4xx_HAL_Driver\Inc
+C:\repo\embsys310\embsys310\Assignment 1\Hello_World\Drivers\STM32L4xx_HAL_Driver\Inc
 -I
-C:\repo\embsys310\Hello_World\Drivers\STM32L4xx_HAL_Driver\Inc\Legacy
+C:\repo\embsys310\embsys310\Assignment 1\Hello_World\Drivers\STM32L4xx_HAL_Driver\Inc\Legacy
 -I
-C:\repo\embsys310\Hello_World\Drivers\CMSIS\Device\ST\STM32L4xx\Include
+C:\repo\embsys310\embsys310\Assignment 1\Hello_World\Drivers\CMSIS\Device\ST\STM32L4xx\Include
 -I
-C:\repo\embsys310\Hello_World\Drivers\CMSIS\Include
+C:\repo\embsys310\embsys310\Assignment 1\Hello_World\Drivers\CMSIS\Include
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

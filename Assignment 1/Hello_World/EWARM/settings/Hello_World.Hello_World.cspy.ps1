@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\repo\embsys310\Hello_World\EWARM\settings\Hello_World.Hello_World.general.xcl" --backend -f "C:\repo\embsys310\Hello_World\EWARM\settings\Hello_World.Hello_World.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\repo\embsys310\embsys310\Assignment 1\Hello_World\EWARM\settings\Hello_World.Hello_World.general.xcl" --backend -f "C:\repo\embsys310\embsys310\Assignment 1\Hello_World\EWARM\settings\Hello_World.Hello_World.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\repo\embsys310\Hello_World\EWARM\settings\Hello_World.Hello_World.general.xcl" --debug_file=$debugfile --backend -f "C:\repo\embsys310\Hello_World\EWARM\settings\Hello_World.Hello_World.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\repo\embsys310\embsys310\Assignment 1\Hello_World\EWARM\settings\Hello_World.Hello_World.general.xcl" --debug_file=$debugfile --backend -f "C:\repo\embsys310\embsys310\Assignment 1\Hello_World\EWARM\settings\Hello_World.Hello_World.driver.xcl" 
 }
