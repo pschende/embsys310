@@ -11,21 +11,21 @@ The BD Veritor is a hand-held diagnostic device for rapid detection of respirato
 9. The test cartridge is removed and the device is ready to use again.
 
 There is little to no information on the inner workings of the device, but based on descriptions, literature, and pictures I assume that the system consists of these subsystems:
-MCU
+* MCU -
 This microcontroller stores the firmware that runs the system*
-Camera/test cartridge detector
+* Camera/test cartridge detector -
 This subsystem images the test strip area of the test cartridge as well as a cartridge bar code. THe test strip area shows the test results after the incubation period. The strip is coated with antibodies in certain areas that are specific to the type of pathogen being performed as well as a positive biotin control area and a blank negative control area. Any pathogens present in the detection buffer will be bound to these sites on the test strip and labeled with detection particles (most likely fluorescent)t. A small barcode next to the test strip might contain a serial number that will indicate to the firmware the type of test and other traceable information like test lot.
-Illumination source
+* Illumination source -
 This light source (an LED) illuminates the test strip for readout by the detector. It is surely critical to the test results that the intensity and other optical properties of the source are calibrated. BD provides a validation test cartridge that is periodically inserted that probably serves this function.
-Barcode reader
+* Barcode reader -
 This barcode reader can read barcodes external to the device- it is used to to read patient sample data to link to the test result. The device can also read barcodes printed in the user manual to configure the device. FOr example, the user can set the language by reading one of several barcodes in the manual.
-Battery/power management
+* Battery/power management -
 The device is battery powered or can be used with a wall adaptor. The power management system must prevent the battery from being over or under charged.
-LCD display
+* LCD display -
 The LCD display indicates to the user when the device is ready to accept a test cartridge and what the results of the test are. It can also display any relevant diagnostic information like battery level and error codes.
-Multi-function button
+* Multi-function button -
 There is one button that can power on the device and also be used for the user interface to select the operation mode or clear messages.
-Communication interface
+* Communication interface -
 This interface is used to update the device's firmware and optionally communicate with an external hospital network device.
 
 The key challenges with this device are:
