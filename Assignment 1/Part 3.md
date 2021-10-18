@@ -1,1 +1,1 @@
-![Terminal Output Scrrenshot](/Screenshot%202021-10-17%20213801.png)
+![Terminal Output Scrrenshot](https://github.com/pschende/embsys310/blob/121b3332cd1076886e750cda2cf9246c33d68acb/Assignment%201/Screenshot%202021-10-17%20213801.png)
