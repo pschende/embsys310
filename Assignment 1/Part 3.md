@@ -1,1 +1,1 @@
-![Terminal Output Scrrenshot](/Screenshot 2021-10-17 213801.png)
+![Terminal Output Scrrenshot](/Screenshot%202021-10-17%20213801.png)
