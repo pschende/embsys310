@@ -12,7 +12,7 @@ The BD Veritor is a hand-held diagnostic device for rapid detection of respirato
 
 There is little to no information on the inner workings of the device, but based on descriptions, literature, and pictures I assume that the system consists of these subsystems:
 * MCU -
-This microcontroller stores the firmware that runs the system*
+This microcontroller stores the firmware that runs the system
 * Camera/test cartridge detector -
 This subsystem images the test strip area of the test cartridge as well as a cartridge bar code. THe test strip area shows the test results after the incubation period. The strip is coated with antibodies in certain areas that are specific to the type of pathogen being performed as well as a positive biotin control area and a blank negative control area. Any pathogens present in the detection buffer will be bound to these sites on the test strip and labeled with detection particles (most likely fluorescent)t. A small barcode next to the test strip might contain a serial number that will indicate to the firmware the type of test and other traceable information like test lot.
 * Illumination source -
