@@ -1,26 +1,3 @@
-#if 1
-#include "morse.h"
-#include "led.h"
-#include <string.h>
-
-char message[] = "PAUL";
-
-
-void func1(int dude1, int dude2, int dude3, int dude4, int dude5){
-  int mandrake = 1;
-  mandrake++;
-}
-void func2(void){
-  func1(10, 20, 30, 40, 50);
-}
-
-void main(void)
-{
-  func2();
-}
-
-#else
-
 #define RCC_BASE 0x40021000
 #define RCC_AHB2ENR (*((unsigned int*)(RCC_BASE + 0x4C)))
 
@@ -42,7 +19,7 @@ void main(void)
     // Alias offset 0x2104C
     // Set bit{0] to 1
     // 1. Enable clock to Peripheral
-     RCC_AHB2ENR |= 0x1;
+     *((unsigned int*)(0x42000000+(0x2104C *32) + (0*4)))= 0x1;
   
     // GPIOA Base Address: 0x48000000
     // GPIO port mode register (GPIOx_MODER) (x = A..E and H)
@@ -69,5 +46,3 @@ void main(void)
 
     }
 }
-
-#endif
